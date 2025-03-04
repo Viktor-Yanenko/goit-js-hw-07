@@ -127,3 +127,152 @@ h1 {
 }
 
 /* TASK 4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form > button{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  border-color: transparent;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.login-form > label{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.login-form > label > input{
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* TASK 5 */
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.widget > p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0;
+}
+
+.widget > button{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  border-color: transparent;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* TASK 6 */
+
+#controls{
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 486px;
+  height: 104px;
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+#controls > button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+#controls > button[data-create]{
+  background-color: #4e75ff;
+}
+
+#controls > button[data-destroy]{
+  background-color: #ff4e4e;
+}
+
+#controls > input{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;;
+
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  text-align: center;
+}
+
+#boxes {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 32px;
+  min-width: 486px;
+  background-color: #f6f6fe;
+  column-gap: 16px;
+  row-gap: 16px;
+}
