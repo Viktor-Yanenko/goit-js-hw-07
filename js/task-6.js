@@ -30,7 +30,7 @@ btnCreate.addEventListener("click", () => {
     createBoxes(amount);
     input.value = "";
   } else {
-    alert("Input number between 1 and 100");
+    return alert("Input number between 1 and 100");
   }
 });
 
